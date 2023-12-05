@@ -1,0 +1,32 @@
+.nav_active{
+    position: relative;
+}
+.nav_active::before{
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+
+}
+
+.variant-active{
+    padding: 2px;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.breadcrumb-active{
+    color: #000;
+}
+.breadcrumb-line{
+    display: none;
+}
+.text-red{
+    color: #DB4444;
+}
+.header--wrapper{
+    @apply bg-black
+}
